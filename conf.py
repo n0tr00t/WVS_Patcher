@@ -17,7 +17,7 @@ wvs_location = 'C:/"Program Files (x86)"/Acunetix/"Web Vulnerability Scanner 10"
 wvs_save_dir = 'C:/wvs_result/'
 
 # WVS扫描语句，具体可在http://www.acunetix.com/blog/docs/acunetix-wvs-cli-operation/ 查询
-wvs_scan_sentence = '/Scan %s /Profile default /ExportXML /SaveFolder %s  --RestrictToBaseFolder=true'
+wvs_scan_sentence = '/Scan "%s" /Profile default /ExportXML /SaveFolder %s  --RestrictToBaseFolder=true'
 
 
 # WVS结果过滤
